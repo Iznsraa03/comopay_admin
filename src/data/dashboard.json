@@ -1,0 +1,59 @@
+{
+  "stats": {
+    "totalRevenue": 2840000000,
+    "totalCommunities": 42,
+    "walletBalance": 1400000,
+    "midtransSuccessRate": 98.2,
+    "activeOrders": 1248
+  },
+  "recentTransactions": [
+    {
+      "id": "TRX-1011",
+      "amount": 150000,
+      "type": "income",
+      "status": "success",
+      "description": "Pembayaran Reservasi Lapangan X",
+      "date": "2026-04-22T08:30:00Z",
+      "communityId": "COM-01",
+      "communityName": "Futsal Mania Jakarta"
+    },
+    {
+      "id": "TRX-1012",
+      "amount": 2000000,
+      "type": "expense",
+      "status": "success",
+      "description": "Penarikan Dana ke Rekening",
+      "date": "2026-04-22T07:15:00Z",
+      "communityId": "COM-15",
+      "communityName": "Badminton Club Bandung"
+    },
+    {
+      "id": "TRX-1013",
+      "amount": 50000,
+      "type": "income",
+      "status": "pending",
+      "description": "Pembayaran Kas Bulanan",
+      "date": "2026-04-21T18:45:00Z",
+      "communityId": "COM-03",
+      "communityName": "Komunitas Basket Bekasi"
+    },
+    {
+      "id": "TRX-1014",
+      "amount": 120000,
+      "type": "income",
+      "status": "success",
+      "description": "Pembayaran Reservasi Lapangan Y",
+      "date": "2026-04-21T16:20:00Z",
+      "communityId": "COM-01",
+      "communityName": "Futsal Mania Jakarta"
+    },
+    {
+      "id": "TRX-1015",
+      "amount": 350000,
+      "type": "income",
+      "status": "failed",
+      "description": "Top-up Saldo",
+      "date": "2026-04-21T10:05:00Z"
+    }
+  ]
+}
