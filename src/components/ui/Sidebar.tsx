@@ -37,11 +37,10 @@ export default function Sidebar() {
         <Link
           key={item.href}
           href={item.href}
-          className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group ${
-            isActive 
-              ? "bg-blue-600/10 text-blue-400" 
+          className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group ${isActive
+              ? "bg-blue-600/10 text-blue-400"
               : "text-zinc-400 hover:bg-zinc-800/50 hover:text-zinc-200"
-          }`}
+            }`}
         >
           <item.icon className={`w-5 h-5 ${isActive ? "text-blue-500" : "text-zinc-500 group-hover:text-zinc-300"}`} />
           <span className="font-medium text-sm flex-1">{item.title}</span>
@@ -72,12 +71,12 @@ export default function Sidebar() {
           {renderNavItems(mainNavItems)}
         </div>
 
-        <div className="space-y-1">
+        {/* <div className="space-y-1">
           <p className="px-4 text-xs font-semibold text-zinc-500 uppercase tracking-wider mb-3">
             Sistem
           </p>
           {renderNavItems(secondaryNavItems)}
-        </div>
+        </div> */}
       </div>
 
       {/* User Profile & Logout */}
